@@ -1,17 +1,21 @@
+body{
+   
+    background-color: lightcoral;
+
+}
 #root{
+    
     display: flex;
     justify-content: space-around;
-}
+    }
 
 
 .userCardContainer{
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
-    background-color: lawngreen;
-    padding: 25px;
-    width: 19%;
-    height: 50%;
+    overflow: hidden;
 }
 
 .userHeaderContainer{
@@ -20,7 +24,7 @@
     align-items: center;
     background-color: white;
     height: 40%;
-    padding: 20px;
+    padding: 20px 60px 10px;
 }
 
 .userInfoContainer{
@@ -30,7 +34,7 @@
     align-items: center;
     background-color: #F9F8F8;
     justify-content: start;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 #img{
@@ -55,7 +59,7 @@ h5{
 }
 
 p{
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
     text-align: center;
     font-size: 12px;
@@ -66,7 +70,7 @@ p{
 }
 
 .buttonView{
-    width: 90%;
+    width: 70%;
     padding: 10px 0;
     border: 1.5px solid #1E90FF;
     border-radius: 6px;
@@ -74,12 +78,13 @@ p{
     font-weight: 900;
     font-size: 15px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .buttonOffer{
+    width: 70%;
     padding: 10px 0;
     margin-top: 10px;
-    width: 90%;
     border: 2px solid #1E90FF;
     border-radius: 6px;
     color: white;
@@ -87,4 +92,31 @@ p{
     font-weight: 900;
     font-size: 15px;
     opacity: 0.7;
+    cursor: pointer;
 }
+
+#star{
+    color: gainsboro;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    margin-top: -11px
+}
+
+#starTwo{
+    color: #FFD700;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    margin-top: -11px
+}
+
+#circle{
+    margin: -1px 12px 0 0;
+    color: yellowgreen;
+
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+}
+
