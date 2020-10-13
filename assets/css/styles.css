@@ -1,122 +1,117 @@
-body{
-   
-    background-color: lightcoral;
-
-}
-#root{
-    
-    display: flex;
-    justify-content: space-around;
-    }
-
-
-.userCardContainer{
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    overflow: hidden;
+body {
+  background-color: lightcoral;
 }
 
-.userHeaderContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    height: 40%;
-    padding: 20px 60px 10px;
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.userInfoContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: initial;
-    align-items: center;
-    background-color: #F9F8F8;
-    justify-content: start;
-    padding: 20px 40px;
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Arimo', sans-serif;
 }
 
-#img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
+h5 {
+  padding: 10px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.5;
 }
 
-h1{
-    font-size: 17px;
-    font-weight: bold;
-    font-family: 'Arimo', sans-serif;
-    
+p {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Heebo', sans-serif;
+  opacity: 0.3;
+  font-weight: 600;
 }
 
-h5{
-    padding: 10px;
-    font-family: 'Arimo', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    opacity: 0.5;
+#root {
+  display: flex;
+  justify-content: space-around;
 }
 
-p{
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Heebo', sans-serif;
-    opacity: 0.3;
-    font-weight: 600;
-
+#star {
+  color: gainsboro;
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+  margin-top: -11px;
 }
 
-.buttonView{
-    width: 70%;
-    padding: 10px 0;
-    border: 1.5px solid #1E90FF;
-    border-radius: 6px;
-    color: #1E90FF;
-    font-weight: 900;
-    font-size: 15px;
-    opacity: 0.7;
-    cursor: pointer;
+#starTwo {
+  color: #ffd700;
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+  margin-top: -11px;
 }
 
-.buttonOffer{
-    width: 70%;
-    padding: 10px 0;
-    margin-top: 10px;
-    border: 2px solid #1E90FF;
-    border-radius: 6px;
-    color: white;
-    background-color: #1E90FF;
-    font-weight: 900;
-    font-size: 15px;
-    opacity: 0.7;
-    cursor: pointer;
+#circle {
+  margin: -1px 12px 0 0;
+  color: yellowgreen;
+
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
 }
 
-#star{
-    color: gainsboro;
-    border-radius: 50%;
-    background-color: white;
-    padding: 2px;
-    margin-top: -11px
+.userCardContainer {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
-#starTwo{
-    color: #FFD700;
-    border-radius: 50%;
-    background-color: white;
-    padding: 2px;
-    margin-top: -11px
+.userHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 40%;
+  padding: 20px 60px 10px;
 }
 
-#circle{
-    margin: -1px 12px 0 0;
-    color: yellowgreen;
-
-    border-radius: 50%;
-    width: 1px;
-    height: 1px;
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+  background-color: #f9f8f8;
+  justify-content: start;
+  padding: 20px 40px;
 }
 
+.buttonView {
+  width: 70%;
+  padding: 10px 0;
+  border: 1.5px solid #1e90ff;
+  border-radius: 6px;
+  color: #1e90ff;
+  font-weight: 900;
+  font-size: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.buttonOffer {
+  width: 70%;
+  padding: 10px 0;
+  margin-top: 10px;
+  border: 2px solid #1e90ff;
+  border-radius: 6px;
+  color: white;
+  background-color: #1e90ff;
+  font-weight: 900;
+  font-size: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+}
